@@ -1,0 +1,38 @@
+body{
+    background: url(Res/fundo.png) repeat fixed;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+#principal{
+    width: 900px;
+    padding: 1px;
+}
+.nav_bar{
+    background: #c5c5b2;
+    border: 1px solid #c5c5b2;
+    padding: 18px;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.6em;
+    color: #a0a090;
+}
+#foto1{
+    border: 15px solid #c5c5b2;
+}
+a{
+    color: #4b566a;
+    font-weight: bold;
+    text-decoration: none;
+    border: 8px solid #c5c5b2;
+}
+#conteudo_principal{
+    background:#e8e8d9 ;
+    padding: 2px 10px;
+}
+#direitos{
+    text-align: center;
+    font-weight: bold;
+}
+
