@@ -1,0 +1,127 @@
+body{
+    background: #e6e6e6;
+}
+*{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    background-color: #f7b600;
+    text-align: center;
+}
+.logo{
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 25px 25px 20px 25px;
+}
+.tec{
+    color: #4e4e4e;
+}
+.blog{
+    color: white;
+}
+
+a:link,:visited{
+    color: white;
+    text-decoration: none;
+    padding: 0.75em;
+}
+a:hover{
+    background-color:white;
+    color: #f7b600;
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+}
+.navegador{
+    padding-bottom: 25px;
+}
+#principal{
+    width: 920px;
+    margin: 0 auto;
+}
+.postagem{
+    float: left;
+    clear: left;
+    background-color: white;
+    width: 620px;
+    padding: 20px;
+    margin-top: 15px;
+}
+h2{
+    color: #f7b600;
+}
+.data_postagens{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4; 
+}
+img{
+    padding-top: 10px;
+}
+.postagem a:link, .postagem a:visited{
+    color: #f7b600;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0;
+}
+.postagem a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+    font-size: 1em;
+}
+.features{
+    width: 220px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0px;
+    float: right;
+}
+.conteudo_features{
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #CCC; 
+}
+.features a:link, .features a:visited{
+    color: #f7b600;
+    text-decoration: none;
+    padding: 0px 5px;
+    margin: 0px;
+    font-size: 0.8em;
+}
+.features a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+h3{
+    background-color: #CCC;
+    color:#565656;
+    padding: 5px;
+}
+.descricao_features{
+    padding: 5px 0px 0px 5px;
+    margin: 0px;
+    font-size: 0.8em;
+    width: 200px;
+}
+.categorias a:link, .categorias a:visited{
+    color: #f7b600;
+    text-decoration: none;
+    padding: 0px 5px;
+    margin: 0px;
+    font-size: 1em;
+}
+.categorias a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+#rodape{
+    background-color: #CCC;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 15px;
+    clear: both;
+}
