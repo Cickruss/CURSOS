@@ -1,0 +1,33 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 40px;
+    background: #f7b600 url(Res/menu.png) no-repeat;
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#contatos #navegacao .contatos a,
+#sac #navegacao .sac a,
+#discord #navegacao .discord a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
