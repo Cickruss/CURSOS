@@ -1,0 +1,25 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+fieldset{
+    border: 1px solid #ccc;
+    margin: 1em 0;
+}
+textarea{
+    width: 20em;
+    height: 10em;
+}
+#botao{
+    padding: 10px;
+    margin-left: 2px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+#botao:hover{
+    background-color: #ccc;
+}
